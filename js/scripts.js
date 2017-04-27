@@ -1,11 +1,17 @@
 $(function() {
     $("#img").click(function() {
-      alert("Animal info.");
+      $("body").removeClass();
+      $("#hidden-lynx").toggle();
+      $("#hidden-lynx").text();
   });
     $("#img2").click(function() {
-      alert("Animal info.");
+      $("body").removeClass();
+      $("#hidden-lovebird").toggle();
+      $("#hidden-lovebird").text();
   });
     $("#img3").click(function() {
-      alert("animal info.");
+      $("#body").removeClass();
+      $("#hidden-hippo").toggle();
+      $("#hidden-hippo").text();
   });
 });

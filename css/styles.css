@@ -5,3 +5,15 @@ h1 {
 .row {
   text-align: center;
 }
+
+#hidden-lynx {
+  display: none;
+}
+
+#hidden-lovebird {
+  display: none;
+}
+
+#hidden-hippo {
+  display: none;
+}
