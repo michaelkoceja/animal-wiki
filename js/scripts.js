@@ -1,17 +1,18 @@
 $(function() {
     $("#img").click(function() {
-      $("body").removeClass();
-      $("#hidden-lynx").toggle();
-      $("#hidden-lynx").text();
+      $("#hidden-lynx").show();
+      $("#hidden-lovebird").hide();
+      $("#hidden-hippo").hide();
   });
     $("#img2").click(function() {
-      $("body").removeClass();
-      $("#hidden-lovebird").toggle();
-      $("#hidden-lovebird").text();
+      $("#hidden-lovebird").show();
+      $("#hidden-lynx").hide();
+      $("#hidden-hippo").hide();
+
   });
     $("#img3").click(function() {
-      $("#body").removeClass();
-      $("#hidden-hippo").toggle();
-      $("#hidden-hippo").text();
+      $("#hidden-hippo").show();
+      $("#hidden-lynx").hide();
+      $("#hidden-lovebird").hide();
   });
 });
